@@ -1,0 +1,20 @@
+.header {
+  font-size: 1.4rem; //14px
+  height: 7rem;
+  background-color: #fff;
+  border-bottom: var(--line);
+  display: flex;
+  grid-column: full-start/sidebar-end;
+  grid-row: 1/2;
+  justify-content: space-between;
+  align-items: center;
+  background-color: --color-grey-dark-1;
+  background-image: linear-gradient(
+    rgba($color-secondary, 0.93),
+    rgba($color-secondary, 0.93)
+  );
+
+  @media only screen and (max-width: $bp-medium) {
+    grid-column: full-start/sidebar-end;
+  }
+}

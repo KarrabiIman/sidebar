@@ -1,0 +1,64 @@
+////////////////////////////////////////
+///FOOTER BTN
+.btn {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  border-radius: 100px;
+  border: none;
+  width: 200%;
+  background-image: linear-gradient(
+    to right,
+    var(--color-primary-light),
+    var(--color-primary-dark)
+  );
+  color: #fff;
+  overflow: hidden;
+  cursor: pointer;
+
+  &:hover {
+    background-image: linear-gradient(
+      to left,
+      var(--color-primary-light),
+      var(--color-primary-dark)
+    );
+    transform: translateY(2%);
+  }
+
+  &:focus {
+    outline: none;
+    animation: pulsate 1s infinite;
+  }
+}
+
+////////////////////////////////////////
+// HEADER LOGO
+.logo {
+  box-sizing: content-box;
+  margin-left: 2rem;
+  float: left;
+  height: 3rem;
+  justify-self: left;
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  border: 3px solid #fff;
+}
+////////////////////////////////////////
+// HEADER TITLE
+p {
+  margin-right: 50%;
+  color: $color-grey-light-2;
+  font-size: 1.5rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+////////////////////////////////////////
+// FOOTER LEGAL TEXT
+.legal {
+  font-size: 1.2rem;
+  color: var(--color-primary);
+  text-align: center;
+  padding: 2.5rem;
+}

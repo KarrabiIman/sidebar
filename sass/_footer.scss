@@ -1,0 +1,10 @@
+.footer {
+  display: grid;
+  grid-gap: 1rem;
+  grid-column: full-start/sidebar-end;
+  grid-row: 5/-1;
+  background-color: $color-primary-dark;
+  justify-content: center;
+  text-align: center;
+  padding: 3.5rem;
+}
